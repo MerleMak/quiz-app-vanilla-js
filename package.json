@@ -4,6 +4,8 @@
   "description": "quiz app about mushroom",
   "main": "index.js",
   "scripts": {
+    "eslint": "npx eslint \"**/*.js\"",
+    "stylelint": "npx stylelint \"**/*.css\"",
     "prettier:check": "npx prettier --check .",
     "prettier:write": "npx prettier --write .",
     "htmlhint": "npx htmlhint \"**/*.html\"",
@@ -20,7 +22,11 @@
   },
   "homepage": "https://github.com/MerleMak/Quiz-App-VanillaJS#readme",
   "devDependencies": {
+    "eslint": "^8.17.0",
     "htmlhint": "^1.1.4",
-    "prettier": "^2.7.0"
+    "prettier": "^2.7.0",
+    "stylelint": "^14.9.1",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^26.0.0"
   }
 }
