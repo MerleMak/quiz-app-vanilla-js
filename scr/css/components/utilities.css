@@ -1,15 +1,14 @@
 .maus {
-    display: flex;
-    animation: shake 2s infinite;
-    animation-direction: alternate
-    
+  display: flex;
+  animation: shake 2s infinite;
+  animation-direction: alternate;
 }
 
 @keyframes shake {
-    0% {
-      transform: skewY(5deg);
-    }
-    100% {
-      transform: skewY(-5deg);
-    }
+  0% {
+    transform: skewY(5deg);
   }
+  100% {
+    transform: skewY(-5deg);
+  }
+}

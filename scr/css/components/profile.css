@@ -15,7 +15,6 @@
 
 .profile__description {
   text-align: center;
-
 }
 .profile__aboutme {
   display: flex;
@@ -34,5 +33,3 @@
   background-color: var(--profile-btn);
   padding: 0.5rem;
 }
-
-
