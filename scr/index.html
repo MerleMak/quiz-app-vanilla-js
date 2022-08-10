@@ -16,7 +16,7 @@
       rel="stylesheet"
     />
 
-    <script src="./index.js" defer></script>
+    <script src="./index.js" type="module" defer></script>
 
     <title>quiz-home</title>
     <link rel="stylesheet" href="css/styles.css" />
@@ -27,8 +27,8 @@
     </header>
     <main>
       <!-- question card--1 -->
-      <section class="question-card">
-        <button class="card__bookmark-button" data-js="bookmark1">
+      <section class="question-card" data-js="question__card">
+        <button class="card__bookmark-button" data-js="bookmark">
           <span class="material-icons" style="font-size: xxx-large"
             >bookmark</span
           >
@@ -38,11 +38,11 @@
           <p>Welcher Giftpilz ist einer der giftigste Pilz der Welt?</p>
         </div>
 
-        <button class="question-card__button" data-js="answer-button1">
+        <button class="question-card__button" data-js="answer__button">
           show answer
         </button>
 
-        <p class="question-card__answer hidden" data-js="answer1">
+        <p class="question-card__answer hidden" data-js="answer">
           Der Grüne Knollenblätterpilz (Amanita phalloides) ist der giftigste
           Pilz der Welt. Selbst geringe Mengen können zum Leberversagen.
         </p>
@@ -58,8 +58,8 @@
       </section>
 
       <!-- question card--2 -->
-      <section class="question-card">
-        <button class="card__bookmark-button" data-js="bookmark2">
+      <section class="question-card" data-js="question__card">
+        <button class="card__bookmark-button" data-js="bookmark">
           <span class="material-icons" style="font-size: xxx-large"
             >bookmark</span
           >
@@ -69,11 +69,11 @@
           <p>Welcher Giftpilz ist einer der giftigste Pilz der Welt?</p>
         </div>
 
-        <button class="question-card__button" data-js="answer-button2">
+        <button class="question-card__button" data-js="answer__button">
           show answer
         </button>
 
-        <div class="question-card__answer hidden" data-js="answer2">
+        <div class="question-card__answer hidden" data-js="answer">
           <p>
             Der Grüne Knollenblätterpilz (Amanita phalloides) ist der giftigste
             Pilz der Welt. Selbst geringe Mengen können zum Leberversagen.
@@ -91,22 +91,22 @@
       </section>
 
       <!-- question card--3 -->
-      <section class="question-card">
-        <button class="card__bookmark-button" data-js="bookmark3">
+      <section class="question-card" data-js="question__card">
+        <button class="card__bookmark-button" data-js="bookmark">
           <span class="material-icons" style="font-size: xxx-large"
             >bookmark</span
           >
         </button>
-        <div class="question-card__question" data-js="bookmark3">
+        <div class="question-card__question">
           <h2>Die mittlere Pilzfrage</h2>
           <p>Welcher Giftpilz ist einer der giftigste Pilz der Welt?</p>
         </div>
 
-        <button class="question-card__button" data-js="answer-button3">
+        <button class="question-card__button" data-js="answer__button">
           show answer
         </button>
 
-        <div class="question-card__answer hidden" data-js="answer3">
+        <div class="question-card__answer hidden" data-js="answer">
           <p>
             Der Grüne Knollenblätterpilz (Amanita phalloides) ist der giftigste
             Pilz der Welt. Selbst geringe Mengen können zum Leberversagen.
