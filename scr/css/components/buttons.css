@@ -49,7 +49,3 @@ button:hover {
 .create-question__button button {
   background-color: var(--index-danger);
 }
-
-/* .hide {
-  display: none;
-} */

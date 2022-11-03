@@ -1,7 +1,7 @@
 export default function toggleAnswer() {
-  const cards = document.querySelectorAll('[data-js=question__card]');
+  const cards = document.querySelectorAll('[data-js=card]');
   cards.forEach((card) => {
-    const answerButton = card.querySelector('[data-js=answer__button]');
+    const answerButton = card.querySelector('[data-js=answerButton]');
     const answer = card.querySelector('[data-js=answer]');
     answerButton.addEventListener('click', () => {
       answer.classList.toggle('hidden');
